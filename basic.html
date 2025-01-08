@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <STYLE>
+        h3,h4{background-color:chartreuse;}
+        form{background-color: bisque;}
+        body{color:rgb(55, 13, 13);
+        background-color:beige;}
+
+    </STYLE>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>form</title>
 </head>
-<body>
-    this is just a practice push
+<body><HR>
+    <iframe width="200" height="150" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=gEVykQS4zP3P3eBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>"
+    <HR>
+    <h3>fill the signup form</h3>
+    <form>
+        username:<INPUT type="text" placeholder="enter your username" id="username">
+            <BR><BR>
+        password:<input type="password" placeholder="enter password" required="true" >
+        <BR><BR>
+        
+    date:<input type="date">
+    <BR><BR>
+    file:<input type="file"><BR>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <BR><BR>
+            <HR>
+                <H4>select your gender</H4>
+        <label for="female" >female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <BR><BR>
+        <HR>
+        enter your city
+        <label for="city">select your city</label><br>
+        <select id="city" name="city">
+        <option value="delhi">delhi</option>  
+        <option value="punjab">punjab</option>
+        <option value="up">up</option>
+        <BR><BR>
+</select><HR>
+    <label for="class">did you filled all details</label>
+    <input type="checkbox" name="class">
+    <BR><BR>
+
+        <input type="submit">
+        </form>
+
 </body>
 </html>
