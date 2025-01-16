@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic form</title>
+</head>
+<style>
+    body{background-color: bisque;
+    margin: 0; padding: 0;}
+    H3{position: static;} 
+    input{background-color: aquamarine;}
+    label{background-color: aquamarine;}
+    select{background-color: aquamarine;}
+    h3{background-color: aquamarine;
+       text-align: center;
+    text-transform: capitalize;}
+    h4{background-color: aquamarine;
+    text-align: center;}
+
+</style>
+    <H3><I>internship form</I></H3>
+    <H4><I>fill your details</I></H4>
+<body>
+    <input type="text" placeholder="enter your name" id="name" class="biodata" enter your name >
+    <BR><BR>
+    <input type="text" placeholder="father's name"  class="biodata" enter your fathers name >
+    <BR><BR>
+    <input type="text" placeholder="enter your age"  class="biodata" enter your age >
+    <BR><BR>
+    <input type="text" placeholder="mobile no." class="biodata" enter your mobile number>
+    <BR><BR>
+
+        <label for="occupation"><B>select your occupation</B></label>
+        <BR><BR>
+        <select id="occupation" name="occupation">
+        <option value="undergraduate">undergraduate</option>  
+        <option value="postgraduate">postgraduate</option>
+        <option value="working">working</option>
+        </select>
+            <HR>
+                <B>select where you want to go for intern</b>
+                    <label for="city"></label><br>
+                    <select id="city" name="city">
+                    <option value="delhi">delhi</option>  
+                    <option value="punjab">punjab</option>
+                    <option value="up">up</option>
+                    <BR><BR>
+            </select><HR>
+                <H4>select your gender</H4>
+                
+                    <label for="male">male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <BR><BR>
+                <label for="female" >female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <BR><BR><HR>
+                    <label for="class">did you filled all details</label>
+                    <input type="checkbox" name="class">
+                    <BR><BR>
+                        <label for="class">by clicking you agree that you have applied for our internship form and agree all the terms and condition</label>
+                        <input type="checkbox" name="class">
+                        <BR><BR>                           
+                        <input type="submit">
+                </body>
+            
+</body>
+</html>
